@@ -243,7 +243,7 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/Anish9686/krishisathi.git
+git clone https://github.com/Anish9686/KrishiSathi.git
 cd krishisathi
 
 # Install dependencies

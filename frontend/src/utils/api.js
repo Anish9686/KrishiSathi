@@ -1,8 +1,11 @@
 import axios from "axios";
 import { getToken, saveToken, clearToken } from "./auth";
 
+// Use environment variable for API URL, fallback to localhost for development
+const API_BASE_URL = process.env.REACT_APP_API_URL || "http://localhost:5000/api";
+
 const api = axios.create({
-    baseURL: "http://localhost:5000/api",
+    baseURL: API_BASE_URL,
     withCredentials: true, // Required for HttpOnly cookies
 });
 
@@ -29,7 +32,7 @@ api.interceptors.response.use(
             originalRequest._retry = true;
 
             try {
-                const res = await axios.get("http://localhost:5000/api/auth/refresh", {
+                const res = await axios.get(`${API_BASE_URL}/auth/refresh`, {
                     withCredentials: true,
                 });
 

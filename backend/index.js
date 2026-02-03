@@ -60,6 +60,50 @@ app.use("/api/products", productRoutes);
 app.use("/api/orders", orderRoutes);
 app.use("/api/ai", aiRoutes);
 
+// Auto-seeding products and users if database is empty
+const Product = require("./models/Product");
+const User = require("./models/user");
+const professionalProducts = require("./config/seedData");
+
+const autoSeed = async () => {
+  try {
+    // Auto-seed products
+    const productCount = await Product.countDocuments();
+    if (productCount === 0) {
+      console.log("Database empty. Auto-seeding products...");
+      await Product.insertMany(professionalProducts);
+      console.log(`Successfully seeded ${professionalProducts.length} products.`);
+    }
+
+    // Auto-seed test users
+    const existingAdmin = await User.findOne({ email: "anish.k.m9661@gmail.com" });
+    const existingUser = await User.findOne({ email: "user@krishisathi.com" });
+
+    if (!existingAdmin) {
+      await User.create({
+        name: "Admin User",
+        email: "anish.k.m9661@gmail.com",
+        password: "Anish@9661",
+        role: "admin"
+      });
+      console.log("Created admin test user: anish.k.m9661@gmail.com / Anish@9661");
+    }
+
+    if (!existingUser) {
+      await User.create({
+        name: "Test Farmer",
+        email: "user@krishisathi.com",
+        password: "user123",
+        role: "user"
+      });
+      console.log("Created regular test user: user@krishisathi.com / user123");
+    }
+  } catch (err) {
+    console.error("Auto-seeding failed:", err);
+  }
+};
+autoSeed();
+
 /* ================= SERVER ================= */
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {

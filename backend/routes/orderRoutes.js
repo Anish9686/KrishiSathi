@@ -43,6 +43,24 @@ router.post("/verify", protect, async (req, res) => {
   try {
     const { razorpay_order_id, razorpay_payment_id, razorpay_signature, orderData } = req.body;
 
+    // Check if in demo mode (using placeholder credentials)
+    const isDemoMode = !process.env.RAZORPAY_KEY_SECRET ||
+      process.env.RAZORPAY_KEY_SECRET === "placeholder_secret";
+
+    if (isDemoMode) {
+      // Demo mode: Skip signature verification and create order directly
+      const newOrder = new Order({
+        ...orderData,
+        user: req.user.id,
+        paymentStatus: "Completed",
+        paymentId: razorpay_payment_id || `demo_${Date.now()}`,
+        orderStatus: "Pending",
+      });
+      const savedOrder = await newOrder.save();
+      return res.json({ message: "Payment verified and order created (Demo Mode)", order: savedOrder });
+    }
+
+    // Production mode: Verify signature
     const sign = razorpay_order_id + "|" + razorpay_payment_id;
     const expectedSign = crypto
       .createHmac("sha256", process.env.RAZORPAY_KEY_SECRET)

@@ -154,47 +154,48 @@ function HomeWrapper() {
     >
       {/* ================= MAIN ================= */}
       <main className="page-container">
-        <header className="animate-fade-in" style={{ marginBottom: 48, textAlign: "center" }}>
-          <h1 style={{ fontSize: "3.8rem", color: "var(--primary-dark)", marginBottom: 12 }}>
+        <header className="animate-fade-in" style={{ marginBottom: window.innerWidth < 768 ? 24 : 48, textAlign: "center" }}>
+          <h1 style={{ fontSize: window.innerWidth < 480 ? "1.8rem" : window.innerWidth < 768 ? "2.5rem" : "3.8rem", color: "var(--primary-dark)", marginBottom: 12 }}>
             Krishi<span style={{ color: "var(--primary)", fontWeight: 900 }}>Sathi</span> Market
           </h1>
-          <p style={{ fontSize: "1.3rem", color: "var(--text-muted)", maxWidth: 700, margin: "0 auto", lineHeight: 1.6 }}>
-            Modern technology bridging traditional excellence. <br />
+          <p style={{ fontSize: window.innerWidth < 768 ? "1rem" : "1.3rem", color: "var(--text-muted)", maxWidth: 700, margin: "0 auto", lineHeight: 1.6 }}>
+            Modern technology bridging traditional excellence.<br className="desktop-only" />
             Premium farming solutions for Bharat's future.
           </p>
         </header>
 
         <>
           {/* SEARCH + PRICE FILTER */}
-          <div className="glass-effect" style={{ display: "flex", gap: 20, flexWrap: "wrap", marginBottom: 32, padding: 24, borderRadius: "var(--radius-md)", boxShadow: "var(--shadow-sm)" }}>
-            <div style={{ flex: 1, minWidth: 280 }}>
-              <label style={{ display: "block", marginBottom: 8, fontSize: 13, fontWeight: 700, textTransform: "uppercase", color: "var(--text-muted)" }}>Search</label>
+          <div className="glass-effect" style={{ display: "flex", gap: window.innerWidth < 768 ? 12 : 20, flexWrap: "wrap", marginBottom: window.innerWidth < 768 ? 20 : 32, padding: window.innerWidth < 768 ? 16 : 24, borderRadius: "var(--radius-md)", boxShadow: "var(--shadow-sm)" }}>
+            <div style={{ flex: "1 1 100%", minWidth: 0 }}>
+              <label style={{ display: "block", marginBottom: 8, fontSize: 12, fontWeight: 700, textTransform: "uppercase", color: "var(--text-muted)" }}>Search</label>
               <input placeholder="Search products..." value={search} onChange={(e) => setSearch(e.target.value)} style={{ width: "100%", padding: "14px 18px" }} />
             </div>
-            <div style={{ width: 150 }}>
-              <label style={{ display: "block", marginBottom: 8, fontSize: 13, fontWeight: 700, textTransform: "uppercase", color: "var(--text-muted)" }}>Min Price</label>
+            <div style={{ flex: "1 1 calc(50% - 10px)", minWidth: 0 }}>
+              <label style={{ display: "block", marginBottom: 8, fontSize: 12, fontWeight: 700, textTransform: "uppercase", color: "var(--text-muted)" }}>Min Price</label>
               <input placeholder="₹ 0" type="number" value={minPrice} onChange={(e) => setMinPrice(e.target.value)} style={{ width: "100%", padding: "14px 18px" }} />
             </div>
-            <div style={{ width: 150 }}>
-              <label style={{ display: "block", marginBottom: 8, fontSize: 13, fontWeight: 700, textTransform: "uppercase", color: "var(--text-muted)" }}>Max Price</label>
+            <div style={{ flex: "1 1 calc(50% - 10px)", minWidth: 0 }}>
+              <label style={{ display: "block", marginBottom: 8, fontSize: 12, fontWeight: 700, textTransform: "uppercase", color: "var(--text-muted)" }}>Max Price</label>
               <input placeholder="₹ 10000" type="number" value={maxPrice} onChange={(e) => setMaxPrice(e.target.value)} style={{ width: "100%", padding: "14px 18px" }} />
             </div>
           </div>
 
           {/* CATEGORY FILTER */}
-          <div style={{ display: "flex", gap: 12, flexWrap: "wrap", marginBottom: 48, justifyContent: "center" }}>
+          <div style={{ display: "flex", gap: window.innerWidth < 768 ? 8 : 12, flexWrap: "wrap", marginBottom: window.innerWidth < 768 ? 24 : 48, justifyContent: "center" }}>
             {CATEGORIES.map((cat) => (
               <button
                 key={cat}
                 onClick={() => setSelectedCategory(cat)}
                 style={{
-                  padding: "12px 24px",
+                  padding: window.innerWidth < 768 ? "10px 16px" : "12px 24px",
                   borderRadius: "var(--radius-lg)",
                   background: selectedCategory === cat ? "var(--primary)" : "var(--surface)",
                   color: selectedCategory === cat ? "white" : "var(--primary)",
                   border: selectedCategory === cat ? "none" : "1px solid var(--border)",
                   boxShadow: selectedCategory === cat ? "var(--shadow-md)" : "var(--shadow-sm)",
-                  fontSize: 14
+                  fontSize: window.innerWidth < 768 ? 13 : 14,
+                  whiteSpace: "nowrap"
                 }}
               >
                 {cat}
@@ -203,7 +204,7 @@ function HomeWrapper() {
           </div>
 
           {/* PRODUCTS GRID */}
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(300px, 1fr))", gap: 28 }}>
+          <div style={{ display: "grid", gridTemplateColumns: window.innerWidth < 768 ? "1fr" : window.innerWidth < 1024 ? "repeat(2, 1fr)" : "repeat(auto-fill, minmax(280px, 1fr))", gap: window.innerWidth < 768 ? 16 : 24 }}>
             {loading ? (
               [1, 2, 3, 4, 5, 6].map((i) => <SkeletonCard key={i} />)
             ) : filteredProducts.length > 0 ? (
@@ -370,7 +371,7 @@ function HomeWrapper() {
               transition={{ type: "spring", damping: 25, stiffness: 300 }}
               onClick={(e) => e.stopPropagation()}
               className="glass-modal"
-              style={{ width: "100%", maxWidth: 900, maxHeight: "90vh", overflow: "hidden", display: "grid", gridTemplateColumns: "1fr 1fr", position: "relative" }}
+              style={{ width: "100%", maxWidth: window.innerWidth < 768 ? "100%" : 900, maxHeight: "90vh", overflow: "hidden", display: "grid", gridTemplateColumns: window.innerWidth < 768 ? "1fr" : "1fr 1fr", position: "relative", margin: window.innerWidth < 768 ? "0" : "auto" }}
             >
               {/* Close Button */}
               <button

@@ -34,10 +34,11 @@ const CartPage = () => {
       <h2 style={{ fontSize: "2.5rem", marginBottom: 32, color: "var(--primary-dark)" }}>Shopping Cart</h2>
 
       <div
+        className="checkout-grid"
         style={{
           display: "grid",
-          gridTemplateColumns: "1fr 380px",
-          gap: 40,
+          gridTemplateColumns: window.innerWidth < 1024 ? "1fr" : "1fr 380px",
+          gap: window.innerWidth < 768 ? 20 : 40,
         }}
       >
         {/* ================= LEFT: CART ITEMS ================= */}
@@ -48,13 +49,14 @@ const CartPage = () => {
               className="premium-card"
               style={{
                 display: "flex",
-                gap: 24,
-                padding: 24,
-                alignItems: "center"
+                flexDirection: window.innerWidth < 640 ? "column" : "row",
+                gap: window.innerWidth < 640 ? 16 : 24,
+                padding: window.innerWidth < 768 ? 16 : 24,
+                alignItems: window.innerWidth < 640 ? "stretch" : "center"
               }}
             >
               {/* IMAGE */}
-              <div style={{ width: 140, height: 140, borderRadius: "var(--radius-sm)", overflow: "hidden", boxShadow: "var(--shadow-sm)" }}>
+              <div style={{ width: window.innerWidth < 640 ? "100%" : 120, height: window.innerWidth < 640 ? 200 : 120, borderRadius: "var(--radius-sm)", overflow: "hidden", boxShadow: "var(--shadow-sm)", flexShrink: 0 }}>
                 <img
                   src={getProductImage(item.name, item.image)}
                   alt={item.name}
@@ -77,7 +79,7 @@ const CartPage = () => {
                 </p>
 
                 {/* QTY CONTROLS */}
-                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+                <div style={{ display: "flex", flexDirection: window.innerWidth < 640 ? "column" : "row", justifyContent: "space-between", alignItems: window.innerWidth < 640 ? "stretch" : "center", gap: window.innerWidth < 640 ? 12 : 0 }}>
                   <div
                     style={{
                       display: "flex",
@@ -91,12 +93,12 @@ const CartPage = () => {
                   >
                     <button
                       onClick={() => updateQty(item._id, item.qty - 1)}
-                      style={{ width: 32, height: 32, borderRadius: 8, background: "white", display: "flex", alignItems: "center", justifyContent: "center", fontSize: 20 }}
+                      style={{ width: 40, height: 40, borderRadius: 8, background: "white", display: "flex", alignItems: "center", justifyContent: "center", fontSize: 20 }}
                     >−</button>
-                    <span style={{ width: 40, textAlign: "center", fontWeight: 700 }}>{item.qty}</span>
+                    <span style={{ minWidth: 50, textAlign: "center", fontWeight: 700 }}>{item.qty}</span>
                     <button
                       onClick={() => updateQty(item._id, item.qty + 1)}
-                      style={{ width: 32, height: 32, borderRadius: 8, background: "white", display: "flex", alignItems: "center", justifyContent: "center", fontSize: 20 }}
+                      style={{ width: 40, height: 40, borderRadius: 8, background: "white", display: "flex", alignItems: "center", justifyContent: "center", fontSize: 20 }}
                     >+</button>
                   </div>
 
@@ -106,13 +108,14 @@ const CartPage = () => {
                       background: "rgba(255, 0, 0, 0.05)",
                       border: "none",
                       color: "#dc3545",
-                      padding: "8px 16px",
+                      padding: "10px 16px",
                       borderRadius: 10,
                       fontWeight: 600,
-                      fontSize: 14
+                      fontSize: 14,
+                      width: window.innerWidth < 640 ? "100%" : "auto"
                     }}
                   >
-                    Remove Item
+                    Remove
                   </button>
                 </div>
               </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Navigate, useLocation } from "react-router-dom";
 
 import Navbar from "./components/Navbar";
 import { Toaster } from "react-hot-toast";
@@ -26,11 +26,15 @@ function ProtectedAdmin({ children }) {
   return token ? children : <Navigate to="/admin/login" replace />;
 }
 
-function App() {
+/* ================= MAIN LAYOUT WRAPPER ================= */
+function AppContent() {
+  const location = useLocation();
+  const isAdminRoute = location.pathname.startsWith("/admin");
+
   return (
-    <Router>
-      <Toaster position="top-center" reverseOrder={false} />
-      <Navbar />
+    <>
+      {/* Only show main Navbar on non-admin routes */}
+      {!isAdminRoute && <Navbar />}
       <KisanAI />
       <Routes>
         {/* USER ROUTES */}
@@ -62,6 +66,15 @@ function App() {
         {/* FALLBACK */}
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
+    </>
+  );
+}
+
+function App() {
+  return (
+    <Router>
+      <Toaster position="top-center" reverseOrder={false} />
+      <AppContent />
     </Router>
   );
 }

@@ -290,60 +290,17 @@ GEMINI_API_KEY=xxx
 
 | Role | Email | Password |
 |------|-------|----------|
-| Admin | admin@krishisathi.com | admin123 |
-| User | user@krishisathi.com | user123 |
+| Admin | anish.k.m9661@gmail.com | Anish@9661 |
+| User | anish.k.m2005@gmail.com.com | Anish@9661 |
 
 ---
 
-## 🔮 Future Scope
 
-### Phase 2: Scale & Optimize
-- [ ] **Redis Caching** - Reduce database load by 60%
-- [ ] **CDN Integration** - Faster image delivery
-- [ ] **PWA Support** - Offline-first mobile experience
-- [ ] **Multi-language** - Hindi, Tamil, Telugu, Marathi
 
-### Phase 3: Advanced Features
-- [ ] **ML Price Prediction** - Dynamic pricing based on demand
-- [ ] **Drone Integration** - Aerial crop health monitoring
-- [ ] **IoT Sensors** - Real-time soil moisture data
-- [ ] **Farmer Community** - Knowledge sharing platform
-
-### Phase 4: Enterprise
-- [ ] **B2B Portal** - Bulk ordering for retailers
-- [ ] **Logistics Platform** - Last-mile delivery optimization
-- [ ] **Credit System** - Micro-loans for farmers
-- [ ] **Government Integration** - PM-KISAN, subsidy management
-
----
-
-## 📝 Resume Bullet
-
-> **Built a full-stack Agri E-Commerce platform with AI-based crop advisory, admin order management, CI/CD deployment, and scalable cloud architecture.**
-
-### Expanded Version (ATS-Optimized):
-
-> - Developed **KrishiSathi**, a full-stack MERN agricultural marketplace serving 10K+ products with **Razorpay payment integration** and **real-time order tracking**
-> - Implemented **AI-powered crop advisory system** using Google Gemini API, reducing farmer decision time by 40%
-> - Built **admin dashboard** with inventory management, automatic stock deduction on order fulfillment, and sales analytics
-> - Designed **"Organic Modern" UI system** with glassmorphism, micro-animations, and WCAG-compliant accessibility
-> - Containerized application using **Docker** with multi-stage builds, reducing deployment time from hours to minutes
-> - Achieved **95+ Lighthouse performance score** through targeted CSS optimizations and GPU-accelerated animations
-
----
 
 ## 🤝 Contributing
 
 Contributions are welcome! Please read our [Contributing Guidelines](CONTRIBUTING.md) before submitting PRs.
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
 <p align="center">
   <strong>Made with 🌾 for Bharat's Farmers</strong>
 </p>

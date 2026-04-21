@@ -14,8 +14,26 @@ export const IMAGE_MAP = {
     "Heavy Duty Farmer Gloves": "/images/farmer-gloves.jpg",
 };
 
-export const FALLBACK_IMAGE = "https://images.unsplash.com/photo-1592997571659-0b21ff64313b";
+const FALLBACK_IMAGE = "https://images.unsplash.com/photo-1592997571659-0b21ff64313b";
+const BACKEND_URL = process.env.REACT_APP_API_URL ? process.env.REACT_APP_API_URL.replace('/api', '') : "http://localhost:5000";
 
 export const getProductImage = (name, imageUrl) => {
-    return IMAGE_MAP[name] || imageUrl || FALLBACK_IMAGE;
+    // 1. Prioritize specific imageUrl from database (the "related" bag/bottle images)
+    if (imageUrl && !imageUrl.includes("placeholder")) {
+        if (imageUrl.startsWith('http')) return imageUrl;
+        if (imageUrl.startsWith('/')) return `${BACKEND_URL}${imageUrl}`;
+    }
+
+    // 2. Only use IMAGE_MAP as a fallback if database image is missing or a placeholder
+    if (IMAGE_MAP[name]) return `${BACKEND_URL}${IMAGE_MAP[name]}`;
+
+    // 3. Fuzzy match fallback
+    const fuzzyMatch = Object.keys(IMAGE_MAP).find(key =>
+        name.toLowerCase().startsWith(key.toLowerCase()) ||
+        key.toLowerCase().startsWith(name.toLowerCase())
+    );
+    if (fuzzyMatch) return `${BACKEND_URL}${IMAGE_MAP[fuzzyMatch]}`;
+
+    // 4. Final fallback to Unsplash/Default
+    return (imageUrl && !imageUrl.includes("placeholder")) ? imageUrl : FALLBACK_IMAGE;
 };

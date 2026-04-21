@@ -1,4 +1,4 @@
-import axios from "axios";
+import api from "./api";
 import { getCart, clearCart } from "./cart";
 import { getToken } from "./auth";
 
@@ -10,8 +10,8 @@ export const syncCartAfterLogin = async () => {
   if (cart.length === 0) return;
 
   try {
-    await axios.post(
-      "http://localhost:5000/api/cart/sync",
+    await api.post(
+      "/cart/sync",
       { items: cart },
       {
         headers: {

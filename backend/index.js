@@ -15,7 +15,9 @@ const aiRoutes = require("./routes/aiRoutes");
 const app = express();
 
 /* ================= MIDDLEWARE ================= */
-app.use(helmet());
+app.use(helmet({
+  crossOriginResourcePolicy: false,
+}));
 app.use(cookieParser());
 
 // CORS Configuration for production and development
@@ -38,6 +40,7 @@ app.use(cors({
 }));
 app.use(express.json());
 app.use(morgan("dev"));
+app.use(express.static("public"));
 
 // Rate Limiting (Disabled for development)
 // const limiter = rateLimit({
@@ -59,6 +62,7 @@ app.use("/api/auth", authRoutes);
 app.use("/api/products", productRoutes);
 app.use("/api/orders", orderRoutes);
 app.use("/api/ai", aiRoutes);
+app.use("/api/cart", require("./routes/cartRoutes"));
 
 // Auto-seeding products and users if database is empty
 const Product = require("./models/Product");

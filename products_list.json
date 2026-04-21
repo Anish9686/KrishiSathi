@@ -1,0 +1,1805 @@
+﻿{
+    "value":  [
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca08",
+                      "name":  "Urea 46% Nitrogen Fertilizer (50kg)",
+                      "description":  "High-quality nitrogen fertilizer for optimal crop growth. Ideal for paddy, wheat, and vegetables. Promotes lush green foliage and increased yield.",
+                      "mainCategory":  "Fertilizers",
+                      "subCategory":  "Nitrogen",
+                      "price":  580,
+                      "unit":  "kg",
+                      "stock":  150,
+                      "imageUrl":  "/products/urea_fertilizer_1767725462896.png",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.155Z",
+                      "updatedAt":  "2026-01-12T07:37:22.155Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca09",
+                      "name":  "DAP Fertilizer - Di-Ammonium Phosphate (50kg)",
+                      "description":  "Premium DAP fertilizer rich in phosphorus and nitrogen. Perfect for root development and early plant growth. Suitable for all soil types.",
+                      "mainCategory":  "Fertilizers",
+                      "subCategory":  "Phosphate",
+                      "price":  1350,
+                      "unit":  "kg",
+                      "stock":  120,
+                      "imageUrl":  "/products/dap_fertilizer_1767725478757.png",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.158Z",
+                      "updatedAt":  "2026-01-12T07:37:22.158Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca0a",
+                      "name":  "NPK 19:19:19 Balanced Fertilizer (50kg)",
+                      "description":  "Complete balanced fertilizer with equal NPK ratio. Provides all essential nutrients for healthy plant growth. Water-soluble formula.",
+                      "mainCategory":  "Fertilizers",
+                      "subCategory":  "Balanced",
+                      "price":  1200,
+                      "unit":  "kg",
+                      "stock":  100,
+                      "imageUrl":  "/products/npk_fertilizer_1767725496596.png",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.159Z",
+                      "updatedAt":  "2026-01-12T07:37:22.159Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca0b",
+                      "name":  "Potash - Muriate of Potash (50kg)",
+                      "description":  "High potassium content fertilizer for improved fruit quality and disease resistance. Essential for flowering and fruiting stages.",
+                      "mainCategory":  "Fertilizers",
+                      "subCategory":  "Potash",
+                      "price":  950,
+                      "unit":  "kg",
+                      "stock":  90,
+                      "imageUrl":  "/products/potash_fertilizer_1767725514019.png",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.159Z",
+                      "updatedAt":  "2026-01-12T07:37:22.159Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca0c",
+                      "name":  "Zinc Sulphate Micronutrient (1kg)",
+                      "description":  "Essential micronutrient for preventing zinc deficiency in crops. Improves plant immunity and grain quality. Water-soluble formula.",
+                      "mainCategory":  "Fertilizers",
+                      "subCategory":  "Micronutrients",
+                      "price":  125,
+                      "unit":  "kg",
+                      "stock":  200,
+                      "imageUrl":  "/products/zinc_sulphate_1767725552612.png",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.159Z",
+                      "updatedAt":  "2026-01-12T07:37:22.159Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca0d",
+                      "name":  "Super Phosphate Single (50kg)",
+                      "description":  "Excellent source of phosphorus and calcium. Promotes strong root system and early maturity. Ideal for legumes and pulses.",
+                      "mainCategory":  "Fertilizers",
+                      "subCategory":  "Phosphate",
+                      "price":  480,
+                      "unit":  "kg",
+                      "stock":  85,
+                      "imageUrl":  "/products/super_phosphate_1767725568681.png",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.159Z",
+                      "updatedAt":  "2026-01-12T07:37:22.159Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca0e",
+                      "name":  "Ammonium Sulphate (50kg)",
+                      "description":  "Nitrogen and sulphur fertilizer for crops requiring both nutrients. Excellent for tea, coffee, and sugarcane cultivation.",
+                      "mainCategory":  "Fertilizers",
+                      "subCategory":  "Nitrogen",
+                      "price":  620,
+                      "unit":  "kg",
+                      "stock":  110,
+                      "imageUrl":  "/products/ammonium_sulphate_1767725584784.png",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.159Z",
+                      "updatedAt":  "2026-01-12T07:37:22.159Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca0f",
+                      "name":  "Calcium Nitrate (25kg)",
+                      "description":  "Fast-acting calcium and nitrogen source. Prevents blossom end rot in tomatoes and peppers. Water-soluble for fertigation.",
+                      "mainCategory":  "Fertilizers",
+                      "subCategory":  "Calcium",
+                      "price":  890,
+                      "unit":  "kg",
+                      "stock":  75,
+                      "imageUrl":  "/products/calcium_nitrate_1767725603972.png",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.159Z",
+                      "updatedAt":  "2026-01-12T07:37:22.159Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca10",
+                      "name":  "Bio-NPK Biofertilizer (5kg)",
+                      "description":  "Consortium of nitrogen-fixing, phosphate-solubilizing, and potash-mobilizing bacteria. Eco-friendly soil enrichment solution.",
+                      "mainCategory":  "Fertilizers",
+                      "subCategory":  "Biofertilizer",
+                      "price":  450,
+                      "unit":  "kg",
+                      "stock":  95,
+                      "imageUrl":  "/products/bio_npk_1767725622701.png",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.159Z",
+                      "updatedAt":  "2026-01-12T07:37:22.159Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca11",
+                      "name":  "Boron 20% Micronutrient (1kg)",
+                      "description":  "Essential for cell wall development and pollen germination. Prevents hollow heart in brassicas. Suitable for foliar application.",
+                      "mainCategory":  "Fertilizers",
+                      "subCategory":  "Micronutrients",
+                      "price":  320,
+                      "unit":  "kg",
+                      "stock":  130,
+                      "imageUrl":  "/products/boron_micronutrient_1767725650232.png",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.159Z",
+                      "updatedAt":  "2026-01-12T07:37:22.159Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca12",
+                      "name":  "Iron Chelate EDDHA 6% (1kg)",
+                      "description":  "Highly effective iron supplement for alkaline soils. Corrects iron chlorosis quickly. Long-lasting effect in soil.",
+                      "mainCategory":  "Fertilizers",
+                      "subCategory":  "Micronutrients",
+                      "price":  1450,
+                      "unit":  "kg",
+                      "stock":  45,
+                      "imageUrl":  "/products/iron_chelate_1767725668713.png",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.160Z",
+                      "updatedAt":  "2026-01-12T07:37:22.160Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca13",
+                      "name":  "Manganese Sulphate (5kg)",
+                      "description":  "Essential for photosynthesis and enzyme activation. Corrects manganese deficiency symptoms. Water-soluble formulation.",
+                      "mainCategory":  "Fertilizers",
+                      "subCategory":  "Micronutrients",
+                      "price":  280,
+                      "unit":  "kg",
+                      "stock":  88,
+                      "imageUrl":  "/products/manganese_sulphate_1767725691538.png",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.160Z",
+                      "updatedAt":  "2026-01-12T07:37:22.160Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca14",
+                      "name":  "Copper Sulphate Pentahydrate (1kg)",
+                      "description":  "Micronutrient for healthy plant growth and disease prevention. Also used as fungicide in Bordeaux mixture. High purity grade.",
+                      "mainCategory":  "Fertilizers",
+                      "subCategory":  "Micronutrients",
+                      "price":  190,
+                      "unit":  "kg",
+                      "stock":  150,
+                      "imageUrl":  "/products/copper_sulphate_1767725713529.png",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.160Z",
+                      "updatedAt":  "2026-01-12T07:37:22.160Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca15",
+                      "name":  "Sulphur 90% Granules (25kg)",
+                      "description":  "Essential secondary nutrient for oilseeds and pulses. Improves protein content and oil yield. Slow-release formulation.",
+                      "mainCategory":  "Fertilizers",
+                      "subCategory":  "Secondary Nutrients",
+                      "price":  750,
+                      "unit":  "kg",
+                      "stock":  65,
+                      "imageUrl":  "/products/sulphur_granules_1767725733306.png",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.160Z",
+                      "updatedAt":  "2026-01-12T07:37:22.160Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca16",
+                      "name":  "Agricultural Gypsum (50kg)",
+                      "description":  "Calcium and sulphur source for soil amendment. Improves soil structure in sodic soils. Enhances groundnut pod filling.",
+                      "mainCategory":  "Fertilizers",
+                      "subCategory":  "Soil Amendment",
+                      "price":  320,
+                      "unit":  "kg",
+                      "stock":  180,
+                      "imageUrl":  "/products/gypsum_fertilizer_1767725756307.png",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.160Z",
+                      "updatedAt":  "2026-01-12T07:37:22.160Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca17",
+                      "name":  "Humic Acid 98% Flakes (1kg)",
+                      "description":  "Organic soil conditioner that improves nutrient uptake. Enhances soil microbial activity. Increases water retention capacity.",
+                      "mainCategory":  "Fertilizers",
+                      "subCategory":  "Organic Enhancer",
+                      "price":  680,
+                      "unit":  "kg",
+                      "stock":  70,
+                      "imageUrl":  "/products/humic_acid_1767725830621.png",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.160Z",
+                      "updatedAt":  "2026-01-12T07:37:22.160Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca18",
+                      "name":  "Seaweed Extract Concentrate (1L)",
+                      "description":  "Natural bio-stimulant from marine algae. Promotes root growth and stress tolerance. Rich in cytokinins and auxins.",
+                      "mainCategory":  "Fertilizers",
+                      "subCategory":  "Bio-stimulant",
+                      "price":  540,
+                      "unit":  "kg",
+                      "stock":  90,
+                      "imageUrl":  "/products/seaweed_extract_1767725788658.png",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.160Z",
+                      "updatedAt":  "2026-01-12T07:37:22.160Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca19",
+                      "name":  "Fish Amino Acid Fertilizer (5L)",
+                      "description":  "Organic liquid fertilizer rich in amino acids and proteins. Improves plant vigor and yield. Suitable for all crops.",
+                      "mainCategory":  "Fertilizers",
+                      "subCategory":  "Organic Liquid",
+                      "price":  890,
+                      "unit":  "kg",
+                      "stock":  55,
+                      "imageUrl":  "/products/fish_amino_acid_1767725805234.png",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.160Z",
+                      "updatedAt":  "2026-01-12T07:37:22.160Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca1a",
+                      "name":  "Premium Wheat Seeds - HD 2967 (5kg)",
+                      "description":  "High-yielding wheat variety suitable for irrigated conditions. Disease-resistant with excellent grain quality. Certified seeds.",
+                      "mainCategory":  "Seeds",
+                      "subCategory":  "Cereals",
+                      "price":  420,
+                      "unit":  "kg",
+                      "stock":  60,
+                      "imageUrl":  "/products/wheat_seeds_1767725848721.png",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.160Z",
+                      "updatedAt":  "2026-01-12T07:37:22.160Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca1b",
+                      "name":  "Basmati Rice Seeds - Pusa 1121 (5kg)",
+                      "description":  "Premium Basmati rice seeds with extra-long grain. High yield potential with excellent aroma. Government certified variety.",
+                      "mainCategory":  "Seeds",
+                      "subCategory":  "Cereals",
+                      "price":  890,
+                      "unit":  "kg",
+                      "stock":  45,
+                      "imageUrl":  "/products/products_rice_seeds_1767295259208.png",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.160Z",
+                      "updatedAt":  "2026-01-12T07:37:22.160Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca1c",
+                      "name":  "Hybrid Tomato Seeds - Arka Rakshak (50g)",
+                      "description":  "Disease-resistant hybrid tomato seeds. Ideal for both open field and greenhouse cultivation. High yield with uniform fruiting.",
+                      "mainCategory":  "Seeds",
+                      "subCategory":  "Vegetables",
+                      "price":  280,
+                      "unit":  "kg",
+                      "stock":  150,
+                      "imageUrl":  "/products/products_tomato_seeds_1767295428377.png",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.160Z",
+                      "updatedAt":  "2026-01-12T07:37:22.160Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca1d",
+                      "name":  "Hybrid Maize Seeds - Pioneer P3396 (5kg)",
+                      "description":  "High-yielding hybrid maize for grain and fodder. Excellent standability and drought tolerance. Superior grain quality.",
+                      "mainCategory":  "Seeds",
+                      "subCategory":  "Cereals",
+                      "price":  1250,
+                      "unit":  "kg",
+                      "stock":  40,
+                      "imageUrl":  "/products/hybrid_maize_seeds_1768197216992.png",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.160Z",
+                      "updatedAt":  "2026-01-12T07:37:22.160Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca1e",
+                      "name":  "Yellow Mustard Seeds - Pusa Bold (2kg)",
+                      "description":  "High oil content mustard variety. Early maturing with good yield potential. Resistant to white rust disease.",
+                      "mainCategory":  "Seeds",
+                      "subCategory":  "Oilseeds",
+                      "price":  180,
+                      "unit":  "kg",
+                      "stock":  80,
+                      "imageUrl":  "/products/mustard_seeds_pack_1768197232816.png",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.160Z",
+                      "updatedAt":  "2026-01-12T07:37:22.160Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca1f",
+                      "name":  "Bt Cotton Hybrid Seeds (450g)",
+                      "description":  "Bollworm resistant cotton hybrid. High ginning percentage with superior fiber quality. Suitable for irrigated conditions.",
+                      "mainCategory":  "Seeds",
+                      "subCategory":  "Cash Crops",
+                      "price":  950,
+                      "unit":  "kg",
+                      "stock":  35,
+                      "imageUrl":  "/products/cotton_seeds_hybrid_1768197250528.png",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.160Z",
+                      "updatedAt":  "2026-01-12T07:37:22.160Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca20",
+                      "name":  "Soybean Seeds - JS 335 (10kg)",
+                      "description":  "High-yielding soybean variety with good oil content. Resistant to major diseases. Suitable for both kharif and rabi seasons.",
+                      "mainCategory":  "Seeds",
+                      "subCategory":  "Pulses",
+                      "price":  750,
+                      "unit":  "kg",
+                      "stock":  55,
+                      "imageUrl":  "/products/soybean_seeds_pack_1768197267228.png",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.160Z",
+                      "updatedAt":  "2026-01-12T07:37:22.160Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca21",
+                      "name":  "Groundnut Seeds - TAG 24 (10kg)",
+                      "description":  "Spanish bunch type groundnut variety. High oil content and good shelling percentage. Short duration variety.",
+                      "mainCategory":  "Seeds",
+                      "subCategory":  "Oilseeds",
+                      "price":  680,
+                      "unit":  "kg",
+                      "stock":  48,
+                      "imageUrl":  "/products/groundnut_seeds_pack_1768197288471.png",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.160Z",
+                      "updatedAt":  "2026-01-12T07:37:22.160Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca22",
+                      "name":  "Onion Seeds - Pusa Red (500g)",
+                      "description":  "Deep red colored onion variety with good storage quality. High pungency and excellent market demand. Certified seeds.",
+                      "mainCategory":  "Seeds",
+                      "subCategory":  "Vegetables",
+                      "price":  450,
+                      "unit":  "kg",
+                      "stock":  65,
+                      "imageUrl":  "/products/onion_seeds_pack_1768197310773.png",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.160Z",
+                      "updatedAt":  "2026-01-12T07:37:22.160Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca23",
+                      "name":  "Green Chilli Seeds - Pusa Jwala (100g)",
+                      "description":  "High yielding chilli variety with pungent fruits. Long green fruits suitable for fresh market. Disease tolerant.",
+                      "mainCategory":  "Seeds",
+                      "subCategory":  "Vegetables",
+                      "price":  320,
+                      "unit":  "kg",
+                      "stock":  120,
+                      "imageUrl":  "https://images.unsplash.com/photo-1518568814500-bf0f8d9d-df9b-44e3-8945-2d2f15b99b0f?w=400\u0026h=400\u0026fit=crop",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.160Z",
+                      "updatedAt":  "2026-01-12T07:37:22.160Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca24",
+                      "name":  "Brinjal Seeds - Pusa Purple Long (50g)",
+                      "description":  "Long purple brinjal variety with glossy skin. High productivity and good cooking quality. Resistant to bacterial wilt.",
+                      "mainCategory":  "Seeds",
+                      "subCategory":  "Vegetables",
+                      "price":  180,
+                      "unit":  "kg",
+                      "stock":  140,
+                      "imageUrl":  "https://images.unsplash.com/photo-1609501676725-7186f017a4b7?w=400\u0026h=400\u0026fit=crop",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.160Z",
+                      "updatedAt":  "2026-01-12T07:37:22.160Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca25",
+                      "name":  "Capsicum Seeds - California Wonder (25g)",
+                      "description":  "Large blocky sweet pepper variety. Bright green turning red at maturity. Perfect for salads and stuffing.",
+                      "mainCategory":  "Seeds",
+                      "subCategory":  "Vegetables",
+                      "price":  390,
+                      "unit":  "kg",
+                      "stock":  85,
+                      "imageUrl":  "https://images.unsplash.com/photo-1563565375-f3fdfdbefa83?w=400\u0026h=400\u0026fit=crop",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.161Z",
+                      "updatedAt":  "2026-01-12T07:37:22.161Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca26",
+                      "name":  "Cauliflower Seeds - Pusa Snowball (50g)",
+                      "description":  "White, compact curd cauliflower variety. Suitable for main season cultivation. High vitamin C content.",
+                      "mainCategory":  "Seeds",
+                      "subCategory":  "Vegetables",
+                      "price":  420,
+                      "unit":  "kg",
+                      "stock":  75,
+                      "imageUrl":  "https://images.unsplash.com/photo-1568702846914-96b305d2ebb7?w=400\u0026h=400\u0026fit=crop",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.161Z",
+                      "updatedAt":  "2026-01-12T07:37:22.161Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca27",
+                      "name":  "Cabbage Seeds - Pride of India (50g)",
+                      "description":  "Round head cabbage with tight wrapper leaves. Excellent for fresh market and processing. Good shelf life.",
+                      "mainCategory":  "Seeds",
+                      "subCategory":  "Vegetables",
+                      "price":  350,
+                      "unit":  "kg",
+                      "stock":  90,
+                      "imageUrl":  "https://images.unsplash.com/photo-1594282486552-05b4d80fbb9f?w=400\u0026h=400\u0026fit=crop",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.161Z",
+                      "updatedAt":  "2026-01-12T07:37:22.161Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca28",
+                      "name":  "Spinach Seeds - All Green (500g)",
+                      "description":  "Quick growing leafy vegetable with dark green leaves. Rich in iron and vitamins. Multiple harvests possible.",
+                      "mainCategory":  "Seeds",
+                      "subCategory":  "Leafy Vegetables",
+                      "price":  120,
+                      "unit":  "kg",
+                      "stock":  200,
+                      "imageUrl":  "https://images.unsplash.com/photo-1576045057995-568f588f82fb?w=400\u0026h=400\u0026fit=crop",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.161Z",
+                      "updatedAt":  "2026-01-12T07:37:22.161Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca29",
+                      "name":  "Carrot Seeds - Nantes (100g)",
+                      "description":  "Sweet cylindrical carrot variety with orange-red color. Smooth skin with small core. High beta-carotene content.",
+                      "mainCategory":  "Seeds",
+                      "subCategory":  "Root Vegetables",
+                      "price":  280,
+                      "unit":  "kg",
+                      "stock":  110,
+                      "imageUrl":  "https://images.unsplash.com/photo-1598170845058-32b9d6a5da37?w=400\u0026h=400\u0026fit=crop",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.161Z",
+                      "updatedAt":  "2026-01-12T07:37:22.161Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca2a",
+                      "name":  "Radish Seeds - Pusa Chetki (500g)",
+                      "description":  "Fast maturing radish variety suitable for summer. Mild pungency with crisp texture. Ready in 25-30 days.",
+                      "mainCategory":  "Seeds",
+                      "subCategory":  "Root Vegetables",
+                      "price":  95,
+                      "unit":  "kg",
+                      "stock":  180,
+                      "imageUrl":  "https://images.unsplash.com/photo-1587049352851-8d4e89133924?w=400\u0026h=400\u0026fit=crop",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.161Z",
+                      "updatedAt":  "2026-01-12T07:37:22.161Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca2b",
+                      "name":  "Okra Seeds - Pusa A-4 (500g)",
+                      "description":  "High yielding bhindi variety with dark green pods. Tender and non-fibrous. Resistant to yellow vein mosaic virus.",
+                      "mainCategory":  "Seeds",
+                      "subCategory":  "Vegetables",
+                      "price":  240,
+                      "unit":  "kg",
+                      "stock":  130,
+                      "imageUrl":  "https://images.unsplash.com/photo-1602491453631-e2a5ad90a131?w=400\u0026h=400\u0026fit=crop",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.161Z",
+                      "updatedAt":  "2026-01-12T07:37:22.161Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca2c",
+                      "name":  "Cucumber Seeds - Poinsette (100g)",
+                      "description":  "Dark green slicing cucumber variety. Uniform fruit with excellent taste. Disease tolerant and high yielding.",
+                      "mainCategory":  "Seeds",
+                      "subCategory":  "Vegetables",
+                      "price":  195,
+                      "unit":  "kg",
+                      "stock":  95,
+                      "imageUrl":  "https://images.unsplash.com/photo-1604977042946-1eecc30f269e?w=400\u0026h=400\u0026fit=crop",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.161Z",
+                      "updatedAt":  "2026-01-12T07:37:22.161Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca2d",
+                      "name":  "Pumpkin Seeds - Arka Suryamukhi (50g)",
+                      "description":  "Medium sized orange pumpkin variety. Sweet flesh excellent for cooking. Good storage quality.",
+                      "mainCategory":  "Seeds",
+                      "subCategory":  "Vegetables",
+                      "price":  145,
+                      "unit":  "kg",
+                      "stock":  105,
+                      "imageUrl":  "https://images.unsplash.com/photo-1570586437263-ab629fccc818?w=400\u0026h=400\u0026fit=crop",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.161Z",
+                      "updatedAt":  "2026-01-12T07:37:22.161Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca2e",
+                      "name":  "Organic Pesticide Spray (1L)",
+                      "description":  "Eco-friendly organic pesticide for effective pest control. Safe for beneficial insects. Certified for organic farming.",
+                      "mainCategory":  "Pesticides",
+                      "subCategory":  "Organic",
+                      "price":  320,
+                      "unit":  "kg",
+                      "stock":  75,
+                      "imageUrl":  "/products/products_pesticide_spray_1767295332273.png",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.161Z",
+                      "updatedAt":  "2026-01-12T07:37:22.161Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca2f",
+                      "name":  "Pure Neem Oil - Natural Pesticide (500ml)",
+                      "description":  "100% pure neem oil for organic pest management. Controls aphids, whiteflies, and mites. Non-toxic to beneficial insects.",
+                      "mainCategory":  "Pesticides",
+                      "subCategory":  "Organic",
+                      "price":  250,
+                      "unit":  "kg",
+                      "stock":  95,
+                      "imageUrl":  "/products/products_neem_oil_1767295348781.png",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.161Z",
+                      "updatedAt":  "2026-01-12T07:37:22.161Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca30",
+                      "name":  "Imidacloprid 17.8% SL (250ml)",
+                      "description":  "Systemic insecticide for sucking pest control. Effective against aphids, jassids, and whiteflies. Long residual activity.",
+                      "mainCategory":  "Pesticides",
+                      "subCategory":  "Insecticide",
+                      "price":  380,
+                      "unit":  "kg",
+                      "stock":  120,
+                      "imageUrl":  "/products/pesticide_insecticide_bottle_1768197327186.png",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.161Z",
+                      "updatedAt":  "2026-01-12T07:37:22.161Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca31",
+                      "name":  "Chlorpyrifos 20% EC (1L)",
+                      "description":  "Broad-spectrum contact insecticide. Controls termites, cutworms, and soil insects. Suitable for soil application.",
+                      "mainCategory":  "Pesticides",
+                      "subCategory":  "Insecticide",
+                      "price":  420,
+                      "unit":  "kg",
+                      "stock":  85,
+                      "imageUrl":  "https://images.unsplash.com/photo-1605000797499-95a51c5269ae?w=400\u0026h=400\u0026fit=crop",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.161Z",
+                      "updatedAt":  "2026-01-12T07:37:22.161Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca32",
+                      "name":  "Mancozeb 75% WP (500g)",
+                      "description":  "Contact fungicide for control of various fungal diseases. Protective action on leaf surface. Multi-site mode of action.",
+                      "mainCategory":  "Pesticides",
+                      "subCategory":  "Fungicide",
+                      "price":  280,
+                      "unit":  "kg",
+                      "stock":  150,
+                      "imageUrl":  "/products/fungicide_powder_pack_1768197348108.png",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.161Z",
+                      "updatedAt":  "2026-01-12T07:37:22.161Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca33",
+                      "name":  "Carbendazim 50% WP (500g)",
+                      "description":  "Systemic fungicide for wide range of diseases. Controls powdery mildew, anthracnose, and rust. Seed treatment compatible.",
+                      "mainCategory":  "Pesticides",
+                      "subCategory":  "Fungicide",
+                      "price":  350,
+                      "unit":  "kg",
+                      "stock":  110,
+                      "imageUrl":  "https://images.unsplash.com/photo-1628352081506-83c43123ed6d?w=400\u0026h=400\u0026fit=crop",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.161Z",
+                      "updatedAt":  "2026-01-12T07:37:22.161Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca34",
+                      "name":  "Glyphosate 41% SL (1L)",
+                      "description":  "Non-selective systemic herbicide. Controls annual and perennial weeds. For pre-planting or directed application only.",
+                      "mainCategory":  "Pesticides",
+                      "subCategory":  "Herbicide",
+                      "price":  520,
+                      "unit":  "kg",
+                      "stock":  70,
+                      "imageUrl":  "/products/herbicide_bottle_1768197369630.png",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.162Z",
+                      "updatedAt":  "2026-01-12T07:37:22.162Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca35",
+                      "name":  "2,4-D Amine Salt 58% SL (1L)",
+                      "description":  "Selective herbicide for broad-leaf weed control. Safe for cereal crops like wheat and paddy. Systemic action.",
+                      "mainCategory":  "Pesticides",
+                      "subCategory":  "Herbicide",
+                      "price":  380,
+                      "unit":  "kg",
+                      "stock":  90,
+                      "imageUrl":  "https://images.unsplash.com/photo-1631049552240-59c37f38802b?w=400\u0026h=400\u0026fit=crop",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.162Z",
+                      "updatedAt":  "2026-01-12T07:37:22.162Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca36",
+                      "name":  "Beauveria bassiana Bio-pesticide (1kg)",
+                      "description":  "Entomopathogenic fungus for biological pest control. Controls whitefly, aphids, and thrips. Safe for organic farming.",
+                      "mainCategory":  "Pesticides",
+                      "subCategory":  "Bio-pesticide",
+                      "price":  650,
+                      "unit":  "kg",
+                      "stock":  55,
+                      "imageUrl":  "https://images.unsplash.com/photo-1560493676-04071c5f467b?w=400\u0026h=400\u0026fit=crop",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.162Z",
+                      "updatedAt":  "2026-01-12T07:37:22.162Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca37",
+                      "name":  "Zinc Phosphide Rodenticide (100g)",
+                      "description":  "Effective rodent control for agricultural fields. Controls rats and field mice. Use with bait materials.",
+                      "mainCategory":  "Pesticides",
+                      "subCategory":  "Rodenticide",
+                      "price":  85,
+                      "unit":  "kg",
+                      "stock":  200,
+                      "imageUrl":  "https://images.unsplash.com/photo-1599058917765-a780eda07a3e?w=400\u0026h=400\u0026fit=crop",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.162Z",
+                      "updatedAt":  "2026-01-12T07:37:22.162Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca38",
+                      "name":  "Metaldehyde Snail Bait (500g)",
+                      "description":  "Effective control of snails and slugs in gardens. Pellet formulation for easy application. Weather resistant.",
+                      "mainCategory":  "Pesticides",
+                      "subCategory":  "Molluscicide",
+                      "price":  220,
+                      "unit":  "kg",
+                      "stock":  80,
+                      "imageUrl":  "https://images.unsplash.com/photo-1563514227147-6d2ff665a6a0?w=400\u0026h=400\u0026fit=crop",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.162Z",
+                      "updatedAt":  "2026-01-12T07:37:22.162Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca39",
+                      "name":  "Pendimethalin 30% EC (1L)",
+                      "description":  "Pre-emergence herbicide for annual grass and broadleaf weeds. Suitable for vegetables and field crops.",
+                      "mainCategory":  "Pesticides",
+                      "subCategory":  "Herbicide",
+                      "price":  680,
+                      "unit":  "kg",
+                      "stock":  65,
+                      "imageUrl":  "https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=400\u0026h=400\u0026fit=crop",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.162Z",
+                      "updatedAt":  "2026-01-12T07:37:22.162Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca3a",
+                      "name":  "Fipronil 5% SC (100ml)",
+                      "description":  "Broad-spectrum insecticide for stem borer and leaf folder control. Effective at low doses. Systemic and contact action.",
+                      "mainCategory":  "Pesticides",
+                      "subCategory":  "Insecticide",
+                      "price":  290,
+                      "unit":  "kg",
+                      "stock":  140,
+                      "imageUrl":  "https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=400\u0026h=400\u0026fit=crop",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.162Z",
+                      "updatedAt":  "2026-01-12T07:37:22.162Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca3b",
+                      "name":  "Abamectin 1.9% EC (250ml)",
+                      "description":  "Effective miticide and insecticide for mites and leaf miners. Translaminar action for hidden pests.",
+                      "mainCategory":  "Pesticides",
+                      "subCategory":  "Miticide",
+                      "price":  450,
+                      "unit":  "kg",
+                      "stock":  75,
+                      "imageUrl":  "https://images.unsplash.com/photo-1592982537447-7440770cbfc9?w=400\u0026h=400\u0026fit=crop",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.162Z",
+                      "updatedAt":  "2026-01-12T07:37:22.162Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca3c",
+                      "name":  "Thiamethoxam 25% WG (100g)",
+                      "description":  "Second generation neonicotinoid insecticide. Excellent aphid and whitefly control. Seed treatment and foliar use.",
+                      "mainCategory":  "Pesticides",
+                      "subCategory":  "Insecticide",
+                      "price":  420,
+                      "unit":  "kg",
+                      "stock":  100,
+                      "imageUrl":  "https://images.unsplash.com/photo-1586771107445-d3ca888129ff?w=400\u0026h=400\u0026fit=crop",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.162Z",
+                      "updatedAt":  "2026-01-12T07:37:22.162Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca3d",
+                      "name":  "Organic Compost Fertilizer (25kg)",
+                      "description":  "100% organic compost enriched with beneficial microorganisms. Improves soil structure and water retention. Eco-friendly farming solution.",
+                      "mainCategory":  "Organic Products",
+                      "subCategory":  "Compost",
+                      "price":  450,
+                      "unit":  "kg",
+                      "stock":  80,
+                      "imageUrl":  "/products/products_organic_compost_1767295227360.png",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.162Z",
+                      "updatedAt":  "2026-01-12T07:37:22.162Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca3e",
+                      "name":  "Vermicompost Premium Grade (10kg)",
+                      "description":  "Premium quality vermicompost rich in nutrients and beneficial bacteria. Excellent for organic farming. Enhances soil fertility naturally.",
+                      "mainCategory":  "Organic Products",
+                      "subCategory":  "Vermicompost",
+                      "price":  350,
+                      "unit":  "kg",
+                      "stock":  110,
+                      "imageUrl":  "/products/products_vermicompost_1767295364026.png",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.162Z",
+                      "updatedAt":  "2026-01-12T07:37:22.162Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca3f",
+                      "name":  "Cow Dung Manure - Dried (25kg)",
+                      "description":  "Traditional organic manure rich in nitrogen and beneficial microbes. Improves soil texture and water holding capacity.",
+                      "mainCategory":  "Organic Products",
+                      "subCategory":  "Animal Manure",
+                      "price":  180,
+                      "unit":  "kg",
+                      "stock":  150,
+                      "imageUrl":  "https://images.unsplash.com/photo-1592431913823-7af6b323da9b?w=400\u0026h=400\u0026fit=crop",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.162Z",
+                      "updatedAt":  "2026-01-12T07:37:22.162Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca40",
+                      "name":  "Green Manure Seeds - Dhaincha (5kg)",
+                      "description":  "Fast growing green manure crop seeds. Fixes atmospheric nitrogen in soil. Excellent for soil improvement before paddy.",
+                      "mainCategory":  "Organic Products",
+                      "subCategory":  "Green Manure",
+                      "price":  220,
+                      "unit":  "kg",
+                      "stock":  70,
+                      "imageUrl":  "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=400\u0026h=400\u0026fit=crop",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.162Z",
+                      "updatedAt":  "2026-01-12T07:37:22.162Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca41",
+                      "name":  "Bone Meal Organic Fertilizer (5kg)",
+                      "description":  "Slow-release phosphorus source for organic gardens. Promotes root development and flowering. High calcium content.",
+                      "mainCategory":  "Organic Products",
+                      "subCategory":  "Organic Fertilizer",
+                      "price":  380,
+                      "unit":  "kg",
+                      "stock":  65,
+                      "imageUrl":  "https://images.unsplash.com/photo-1585314062604-1a357de8b000?w=400\u0026h=400\u0026fit=crop",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.162Z",
+                      "updatedAt":  "2026-01-12T07:37:22.162Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca42",
+                      "name":  "Blood Meal High Nitrogen (2kg)",
+                      "description":  "Organic nitrogen source for leafy vegetables. Quick-release formulation. 100% natural and eco-friendly.",
+                      "mainCategory":  "Organic Products",
+                      "subCategory":  "Organic Fertilizer",
+                      "price":  290,
+                      "unit":  "kg",
+                      "stock":  55,
+                      "imageUrl":  "https://images.unsplash.com/photo-1500651230702-0e2d8a49d4e7?w=400\u0026h=400\u0026fit=crop",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.162Z",
+                      "updatedAt":  "2026-01-12T07:37:22.162Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca43",
+                      "name":  "Fish Meal Fertilizer (5kg)",
+                      "description":  "Organic fertilizer rich in nitrogen and phosphorus. Slow-release nutrients for sustained plant growth. Oceanic origin.",
+                      "mainCategory":  "Organic Products",
+                      "subCategory":  "Organic Fertilizer",
+                      "price":  520,
+                      "unit":  "kg",
+                      "stock":  45,
+                      "imageUrl":  "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=400\u0026h=400\u0026fit=crop",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.162Z",
+                      "updatedAt":  "2026-01-12T07:37:22.162Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca44",
+                      "name":  "Mustard Cake Organic (10kg)",
+                      "description":  "Nitrogen-rich organic manure from mustard oil extraction. Natural pest repellent properties. Excellent for vegetables.",
+                      "mainCategory":  "Organic Products",
+                      "subCategory":  "Oil Cake",
+                      "price":  320,
+                      "unit":  "kg",
+                      "stock":  90,
+                      "imageUrl":  "https://images.unsplash.com/photo-1587049352851-8d4e89133924?w=400\u0026h=400\u0026fit=crop",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.162Z",
+                      "updatedAt":  "2026-01-12T07:37:22.162Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca45",
+                      "name":  "Neem Cake Organic (10kg)",
+                      "description":  "Multi-purpose organic input with fertilizer and pest control properties. Rich in NPK. Controls soil-borne pests.",
+                      "mainCategory":  "Organic Products",
+                      "subCategory":  "Oil Cake",
+                      "price":  380,
+                      "unit":  "kg",
+                      "stock":  85,
+                      "imageUrl":  "https://images.unsplash.com/photo-1591713820100-a3dafaa8e066?w=400\u0026h=400\u0026fit=crop",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.162Z",
+                      "updatedAt":  "2026-01-12T07:37:22.162Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca46",
+                      "name":  "Panchagavya Organic Solution (5L)",
+                      "description":  "Traditional five-cow product organic input. Enhances plant immunity and growth. Certified for organic farming.",
+                      "mainCategory":  "Organic Products",
+                      "subCategory":  "Organic Enhancer",
+                      "price":  450,
+                      "unit":  "kg",
+                      "stock":  40,
+                      "imageUrl":  "https://images.unsplash.com/photo-1598512199776-e428c11a78fb?w=400\u0026h=400\u0026fit=crop",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.162Z",
+                      "updatedAt":  "2026-01-12T07:37:22.162Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca47",
+                      "name":  "Jeevamrit Liquid Concentrate (10L)",
+                      "description":  "Fermented organic liquid for soil and plant health. Rich in beneficial microorganisms. Improves nutrient availability.",
+                      "mainCategory":  "Organic Products",
+                      "subCategory":  "Organic Enhancer",
+                      "price":  280,
+                      "unit":  "kg",
+                      "stock":  60,
+                      "imageUrl":  "https://images.unsplash.com/photo-1500595046743-cd271d694d30?w=400\u0026h=400\u0026fit=crop",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.162Z",
+                      "updatedAt":  "2026-01-12T07:37:22.162Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca48",
+                      "name":  "Bio-compost Enriched (25kg)",
+                      "description":  "Enriched compost with added beneficial microbes and humic substances. Premium quality for organic cultivation.",
+                      "mainCategory":  "Organic Products",
+                      "subCategory":  "Compost",
+                      "price":  580,
+                      "unit":  "kg",
+                      "stock":  50,
+                      "imageUrl":  "https://images.unsplash.com/photo-1605000797499-95a51c5269ae?w=400\u0026h=400\u0026fit=crop",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.162Z",
+                      "updatedAt":  "2026-01-12T07:37:22.162Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca49",
+                      "name":  "Premium Garden Spade - Heavy Duty",
+                      "description":  "Professional-grade spade with ergonomic wooden handle. Rust-resistant steel blade. Perfect for digging and transplanting.",
+                      "mainCategory":  "Tools",
+                      "subCategory":  "Hand Tools",
+                      "price":  450,
+                      "unit":  "kg",
+                      "stock":  40,
+                      "imageUrl":  "/products/products_spade_tool_1767295284801.png",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.162Z",
+                      "updatedAt":  "2026-01-12T07:37:22.162Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca4a",
+                      "name":  "Manual Agriculture Sprayer Pump (16L)",
+                      "description":  "High-capacity manual sprayer with adjustable nozzle. Durable tank with comfortable shoulder strap. Multi-purpose agricultural use.",
+                      "mainCategory":  "Tools",
+                      "subCategory":  "Sprayers",
+                      "price":  1150,
+                      "unit":  "kg",
+                      "stock":  35,
+                      "imageUrl":  "/products/products_sprayer_pump_1767295301485.png",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.162Z",
+                      "updatedAt":  "2026-01-12T07:37:22.162Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca4b",
+                      "name":  "Drip Irrigation Kit - Complete Set",
+                      "description":  "Complete drip irrigation system for 1-acre coverage. Water-saving technology with adjustable drippers. Easy installation.",
+                      "mainCategory":  "Tools",
+                      "subCategory":  "Irrigation",
+                      "price":  2850,
+                      "unit":  "kg",
+                      "stock":  25,
+                      "imageUrl":  "/products/products_drip_irrigation_1767295318884.png",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.162Z",
+                      "updatedAt":  "2026-01-12T07:37:22.162Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca4c",
+                      "name":  "Professional Pruning Shears",
+                      "description":  "Sharp bypass pruning shears for clean cuts. Ergonomic grip with safety lock. Suitable for branches up to 20mm.",
+                      "mainCategory":  "Tools",
+                      "subCategory":  "Cutting Tools",
+                      "price":  380,
+                      "unit":  "kg",
+                      "stock":  85,
+                      "imageUrl":  "/products/pruning_shears_1768197399142.png",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.162Z",
+                      "updatedAt":  "2026-01-12T07:37:22.162Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca4d",
+                      "name":  "Garden Fork - 4 Prong Steel",
+                      "description":  "Heavy-duty garden fork for soil aeration and composting. Rust-resistant steel with wooden handle. Professional quality.",
+                      "mainCategory":  "Tools",
+                      "subCategory":  "Hand Tools",
+                      "price":  520,
+                      "unit":  "kg",
+                      "stock":  45,
+                      "imageUrl":  "/products/garden_tools_set_1768197383843.png",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.162Z",
+                      "updatedAt":  "2026-01-12T07:37:22.162Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca4e",
+                      "name":  "Adjustable Garden Rake",
+                      "description":  "Lightweight aluminum rake with adjustable head width. Perfect for leaves and debris collection. Telescopic handle.",
+                      "mainCategory":  "Tools",
+                      "subCategory":  "Hand Tools",
+                      "price":  290,
+                      "unit":  "kg",
+                      "stock":  70,
+                      "imageUrl":  "/products/garden_rake_1768197414071.png",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.162Z",
+                      "updatedAt":  "2026-01-12T07:37:22.162Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca4f",
+                      "name":  "Heavy Duty Khurpi - Weeding Tool",
+                      "description":  "Traditional Indian weeding tool with carbon steel blade. Comfortable wooden grip. Essential for vegetable gardens.",
+                      "mainCategory":  "Tools",
+                      "subCategory":  "Hand Tools",
+                      "price":  120,
+                      "unit":  "kg",
+                      "stock":  150,
+                      "imageUrl":  "/products/khurpi_weeding_tool_1768197437337.png",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.163Z",
+                      "updatedAt":  "2026-01-12T07:37:22.163Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca50",
+                      "name":  "Steel Garden Trowel",
+                      "description":  "Stainless steel trowel for planting and transplanting. Graduated blade for measuring depth. Ergonomic soft grip.",
+                      "mainCategory":  "Tools",
+                      "subCategory":  "Hand Tools",
+                      "price":  180,
+                      "unit":  "kg",
+                      "stock":  120,
+                      "imageUrl":  "/products/garden_trowel_1768197457469.png",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.163Z",
+                      "updatedAt":  "2026-01-12T07:37:22.163Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca51",
+                      "name":  "Wheelbarrow - Heavy Duty (100L)",
+                      "description":  "Large capacity wheelbarrow with pneumatic tire. Rust-resistant steel tray. Perfect for farm and garden transport.",
+                      "mainCategory":  "Tools",
+                      "subCategory":  "Transport",
+                      "price":  2200,
+                      "unit":  "kg",
+                      "stock":  20,
+                      "imageUrl":  "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400\u0026h=400\u0026fit=crop",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.163Z",
+                      "updatedAt":  "2026-01-12T07:37:22.163Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca52",
+                      "name":  "Professional Grafting Knife",
+                      "description":  "Sharp folding grafting knife with wood handle. Precision blade for clean grafts. Essential for tree propagation.",
+                      "mainCategory":  "Tools",
+                      "subCategory":  "Cutting Tools",
+                      "price":  350,
+                      "unit":  "kg",
+                      "stock":  55,
+                      "imageUrl":  "/products/grafting_knife_1768197473876.png",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.163Z",
+                      "updatedAt":  "2026-01-12T07:37:22.163Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca53",
+                      "name":  "Manual Seed Drill - Row Planter",
+                      "description":  "Hand-operated seed drill for uniform row planting. Adjustable seed spacing. Reduces planting time significantly.",
+                      "mainCategory":  "Tools",
+                      "subCategory":  "Planting Equipment",
+                      "price":  1850,
+                      "unit":  "kg",
+                      "stock":  30,
+                      "imageUrl":  "https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=400\u0026h=400\u0026fit=crop",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.163Z",
+                      "updatedAt":  "2026-01-12T07:37:22.163Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca54",
+                      "name":  "Hand Cultivator - 3 Prong",
+                      "description":  "Mini cultivator for loosening soil in tight spaces. Chrome-plated steel with wooden handle. Ideal for container gardening.",
+                      "mainCategory":  "Tools",
+                      "subCategory":  "Hand Tools",
+                      "price":  150,
+                      "unit":  "kg",
+                      "stock":  100,
+                      "imageUrl":  "/products/hand_cultivator_1768197491409.png",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.163Z",
+                      "updatedAt":  "2026-01-12T07:37:22.163Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca55",
+                      "name":  "Stand-up Weeder Tool",
+                      "description":  "Ergonomic stand-up weeder for removing weeds without bending. Stainless steel head with foot pedal. Back-friendly design.",
+                      "mainCategory":  "Tools",
+                      "subCategory":  "Weeding Tools",
+                      "price":  680,
+                      "unit":  "kg",
+                      "stock":  40,
+                      "imageUrl":  "/products/stand_up_weeder_1768197516042.png",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.163Z",
+                      "updatedAt":  "2026-01-12T07:37:22.163Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca56",
+                      "name":  "Soil Aerator Sandals",
+                      "description":  "Strap-on aerator sandals with steel spikes. Aerates soil while walking. Simple and effective lawn care.",
+                      "mainCategory":  "Tools",
+                      "subCategory":  "Lawn Care",
+                      "price":  420,
+                      "unit":  "kg",
+                      "stock":  35,
+                      "imageUrl":  "https://images.unsplash.com/photo-1505664194779-8beaceb93744?w=400\u0026h=400\u0026fit=crop",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.163Z",
+                      "updatedAt":  "2026-01-12T07:37:22.163Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca57",
+                      "name":  "Battery Sprayer Pump (20L)",
+                      "description":  "Rechargeable battery-operated sprayer. Saves labor with 4-hour continuous operation. Adjustable pressure with multiple nozzles.",
+                      "mainCategory":  "Tools",
+                      "subCategory":  "Sprayers",
+                      "price":  3500,
+                      "unit":  "kg",
+                      "stock":  25,
+                      "imageUrl":  "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=400\u0026h=400\u0026fit=crop",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.163Z",
+                      "updatedAt":  "2026-01-12T07:37:22.163Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca58",
+                      "name":  "Hedge Trimmer - Manual",
+                      "description":  "Long-handled hedge shears for shaping bushes. Carbon steel blades with shock-absorbing bumpers. Lightweight design.",
+                      "mainCategory":  "Tools",
+                      "subCategory":  "Cutting Tools",
+                      "price":  580,
+                      "unit":  "kg",
+                      "stock":  30,
+                      "imageUrl":  "/products/hedge_trimmer_manual_1768197532149.png",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.163Z",
+                      "updatedAt":  "2026-01-12T07:37:22.163Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca59",
+                      "name":  "Bow Saw - Pruning (24 inch)",
+                      "description":  "Heavy-duty bow saw for cutting branches and logs. Replaceable blade with comfortable grip. Quick-release blade change.",
+                      "mainCategory":  "Tools",
+                      "subCategory":  "Cutting Tools",
+                      "price":  320,
+                      "unit":  "kg",
+                      "stock":  50,
+                      "imageUrl":  "/products/bow_saw_1768197551307.png",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.163Z",
+                      "updatedAt":  "2026-01-12T07:37:22.163Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca5a",
+                      "name":  "Farmer\u0027s Axe - Wood Handle",
+                      "description":  "Traditional axe for chopping and splitting wood. Drop-forged steel head with lacquered wood handle. Well-balanced design.",
+                      "mainCategory":  "Tools",
+                      "subCategory":  "Cutting Tools",
+                      "price":  480,
+                      "unit":  "kg",
+                      "stock":  45,
+                      "imageUrl":  "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?w=400\u0026h=400\u0026fit=crop",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.163Z",
+                      "updatedAt":  "2026-01-12T07:37:22.163Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca5b",
+                      "name":  "Heavy-Duty Farming Gloves",
+                      "description":  "Reinforced farming gloves with excellent grip. Protects hands during farm work. Breathable and comfortable for long use.",
+                      "mainCategory":  "Accessories",
+                      "subCategory":  "Safety",
+                      "price":  180,
+                      "unit":  "kg",
+                      "stock":  120,
+                      "imageUrl":  "/products/products_garden_gloves_1767295442726.png",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.163Z",
+                      "updatedAt":  "2026-01-12T07:37:22.163Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca5c",
+                      "name":  "Digital Soil pH Meter with LCD",
+                      "description":  "Professional soil testing device with accurate pH measurement. LCD display for easy reading. Battery-operated with durable probe.",
+                      "mainCategory":  "Accessories",
+                      "subCategory":  "Testing",
+                      "price":  680,
+                      "unit":  "kg",
+                      "stock":  50,
+                      "imageUrl":  "/products/products_soil_tester_1767295458634.png",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.163Z",
+                      "updatedAt":  "2026-01-12T07:37:22.163Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca5d",
+                      "name":  "Farmer\u0027s Knee Pads - Gel Cushion",
+                      "description":  "Comfortable knee pads with gel cushioning. Adjustable straps for secure fit. Essential for transplanting and weeding.",
+                      "mainCategory":  "Accessories",
+                      "subCategory":  "Safety",
+                      "price":  350,
+                      "unit":  "kg",
+                      "stock":  65,
+                      "imageUrl":  "/products/knee_pads_farming_1768197568892.png",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.163Z",
+                      "updatedAt":  "2026-01-12T07:37:22.163Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca5e",
+                      "name":  "Wide Brim Sun Hat",
+                      "description":  "UV protective sun hat with wide brim. Breathable mesh panels with chin strap. Perfect for long hours in the field.",
+                      "mainCategory":  "Accessories",
+                      "subCategory":  "Protection",
+                      "price":  220,
+                      "unit":  "kg",
+                      "stock":  100,
+                      "imageUrl":  "/products/sun_hat_farming_1768197594824.png",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.163Z",
+                      "updatedAt":  "2026-01-12T07:37:22.163Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca5f",
+                      "name":  "Water-Resistant Garden Apron",
+                      "description":  "Durable canvas apron with multiple pockets. Water-resistant coating for wet work. Adjustable neck and waist straps.",
+                      "mainCategory":  "Accessories",
+                      "subCategory":  "Protection",
+                      "price":  280,
+                      "unit":  "kg",
+                      "stock":  75,
+                      "imageUrl":  "https://images.unsplash.com/photo-1591637333184-19aa84b3e01f?w=400\u0026h=400\u0026fit=crop",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.163Z",
+                      "updatedAt":  "2026-01-12T07:37:22.163Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca60",
+                      "name":  "Safety Goggles - Anti-Fog",
+                      "description":  "Clear safety goggles with anti-fog coating. Protects eyes during spraying operations. Comfortable soft seal.",
+                      "mainCategory":  "Accessories",
+                      "subCategory":  "Safety",
+                      "price":  150,
+                      "unit":  "kg",
+                      "stock":  140,
+                      "imageUrl":  "https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=400\u0026h=400\u0026fit=crop",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.163Z",
+                      "updatedAt":  "2026-01-12T07:37:22.163Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca61",
+                      "name":  "Seedling Trays - 72 Cell (Pack of 5)",
+                      "description":  "Durable plastic seedling trays for propagation. Optimal cell size for vegetable seedlings. Drainage holes in each cell.",
+                      "mainCategory":  "Accessories",
+                      "subCategory":  "Propagation",
+                      "price":  320,
+                      "unit":  "kg",
+                      "stock":  90,
+                      "imageUrl":  "https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?w=400\u0026h=400\u0026fit=crop",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.163Z",
+                      "updatedAt":  "2026-01-12T07:37:22.163Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca62",
+                      "name":  "Plant Labels - Plastic (100 pcs)",
+                      "description":  "White T-type plant labels for marking varieties. Weather-resistant plastic. Write with permanent marker.",
+                      "mainCategory":  "Accessories",
+                      "subCategory":  "Garden Accessories",
+                      "price":  85,
+                      "unit":  "kg",
+                      "stock":  200,
+                      "imageUrl":  "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=400\u0026h=400\u0026fit=crop",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.163Z",
+                      "updatedAt":  "2026-01-12T07:37:22.163Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca63",
+                      "name":  "Metal Watering Can (10L)",
+                      "description":  "Galvanized steel watering can with rose head. Balanced design for easy pouring. Rust-resistant finish.",
+                      "mainCategory":  "Accessories",
+                      "subCategory":  "Watering",
+                      "price":  450,
+                      "unit":  "kg",
+                      "stock":  55,
+                      "imageUrl":  "https://images.unsplash.com/photo-1499529112087-3cb3b73cec95?w=400\u0026h=400\u0026fit=crop",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.163Z",
+                      "updatedAt":  "2026-01-12T07:37:22.163Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca64",
+                      "name":  "NPK Soil Test Kit - Complete",
+                      "description":  "Home soil testing kit for NPK analysis. Easy-to-read color chart included. 40 tests per kit.",
+                      "mainCategory":  "Accessories",
+                      "subCategory":  "Testing",
+                      "price":  520,
+                      "unit":  "kg",
+                      "stock":  45,
+                      "imageUrl":  "https://images.unsplash.com/photo-1605000797499-95a51c5269ae?w=400\u0026h=400\u0026fit=crop",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.163Z",
+                      "updatedAt":  "2026-01-12T07:37:22.163Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca65",
+                      "name":  "Power Tiller - 7HP Diesel",
+                      "description":  "Heavy-duty power tiller for land preparation. 7HP diesel engine with easy start. Multiple attachments available.",
+                      "mainCategory":  "Equipment",
+                      "subCategory":  "Land Preparation",
+                      "price":  85000,
+                      "unit":  "kg",
+                      "stock":  8,
+                      "imageUrl":  "https://images.unsplash.com/photo-1592982537447-7440770cbfc9?w=400\u0026h=400\u0026fit=crop",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.163Z",
+                      "updatedAt":  "2026-01-12T07:37:22.163Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca66",
+                      "name":  "Chaff Cutter - Manual",
+                      "description":  "Manual chaff cutter for fodder preparation. Steel blades with adjustable cutting length. Suitable for small farms.",
+                      "mainCategory":  "Equipment",
+                      "subCategory":  "Post Harvest",
+                      "price":  4500,
+                      "unit":  "kg",
+                      "stock":  15,
+                      "imageUrl":  "https://images.pexels.com/photos/2255935/pexels-photo-2255935.jpeg?w=400\u0026h=400\u0026fit=crop",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.163Z",
+                      "updatedAt":  "2026-01-12T07:37:22.163Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca67",
+                      "name":  "Paddy Thresher - Pedal Operated",
+                      "description":  "Foot-operated paddy thresher for small farmers. Efficient grain separation. Low maintenance design.",
+                      "mainCategory":  "Equipment",
+                      "subCategory":  "Post Harvest",
+                      "price":  6800,
+                      "unit":  "kg",
+                      "stock":  12,
+                      "imageUrl":  "https://images.pexels.com/photos/2255935/pexels-photo-2255935.jpeg?w=400\u0026h=400\u0026fit=crop",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.163Z",
+                      "updatedAt":  "2026-01-12T07:37:22.163Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca68",
+                      "name":  "Mini Rotavator Attachment",
+                      "description":  "Rotavator attachment for power tillers. Excellent for seedbed preparation. Adjustable tilling depth.",
+                      "mainCategory":  "Equipment",
+                      "subCategory":  "Land Preparation",
+                      "price":  12500,
+                      "unit":  "kg",
+                      "stock":  10,
+                      "imageUrl":  "https://images.pexels.com/photos/2933243/pexels-photo-2933243.jpeg?w=400\u0026h=400\u0026fit=crop",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.163Z",
+                      "updatedAt":  "2026-01-12T07:37:22.163Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca69",
+                      "name":  "Brush Cutter - 4 Stroke Engine",
+                      "description":  "Powerful brush cutter for clearing vegetation. 4-stroke engine for fuel efficiency. Multiple cutting heads included.",
+                      "mainCategory":  "Equipment",
+                      "subCategory":  "Clearing",
+                      "price":  9500,
+                      "unit":  "kg",
+                      "stock":  18,
+                      "imageUrl":  "https://images.pexels.com/photos/2255935/pexels-photo-2255935.jpeg?w=400\u0026h=400\u0026fit=crop",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.163Z",
+                      "updatedAt":  "2026-01-12T07:37:22.163Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca6a",
+                      "name":  "Submersible Water Pump - 1HP",
+                      "description":  "Electric submersible pump for irrigation. Stainless steel construction. High discharge rate for deep wells.",
+                      "mainCategory":  "Equipment",
+                      "subCategory":  "Irrigation",
+                      "price":  5200,
+                      "unit":  "kg",
+                      "stock":  25,
+                      "imageUrl":  "https://images.pexels.com/photos/2255935/pexels-photo-2255935.jpeg?w=400\u0026h=400\u0026fit=crop",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.164Z",
+                      "updatedAt":  "2026-01-12T07:37:22.164Z"
+                  },
+                  {
+                      "_id":  "6964a4b22db8c6075f34ca6b",
+                      "name":  "Portable Generator - 2KVA",
+                      "description":  "Portable petrol generator for farm power needs. Low noise operation. Suitable for pump and equipment operation.",
+                      "mainCategory":  "Equipment",
+                      "subCategory":  "Power",
+                      "price":  18500,
+                      "unit":  "kg",
+                      "stock":  6,
+                      "imageUrl":  "https://images.pexels.com/photos/2933243/pexels-photo-2933243.jpeg?w=400\u0026h=400\u0026fit=crop",
+                      "cropType":  "All crops",
+                      "tags":  [
+
+                               ],
+                      "__v":  0,
+                      "createdAt":  "2026-01-12T07:37:22.164Z",
+                      "updatedAt":  "2026-01-12T07:37:22.164Z"
+                  }
+              ],
+    "Count":  100
+}

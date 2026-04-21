@@ -18,7 +18,7 @@ const authLimiter = rateLimit({
 // =======================
 const generateAccessToken = (user) => {
   return jwt.sign({ id: user._id, role: user.role }, process.env.JWT_SECRET, {
-    expiresIn: "15m",
+    expiresIn: "1d", // Extended from 15m to 1d for better UX
   });
 };
 
@@ -36,7 +36,7 @@ const sendTokens = (user, res, statusCode = 200) => {
     expires: new Date(Date.now() + 7 * 24 * 60 * 60 * 1000), // 7 days
     httpOnly: true,
     secure: process.env.NODE_ENV === "production",
-    sameSite: "strict",
+    sameSite: "lax", // Changed from "strict" for cross-origin compatibility
   };
 
   res.cookie("refreshToken", refreshToken, cookieOptions);

@@ -26,7 +26,7 @@ function AdminLogin() {
       localStorage.setItem("adminUser", JSON.stringify(data.user));
 
       toast.success("Admin Session Verified 🔐");
-      navigate("/admin");
+      window.location.href = "/admin";
     } catch (err) {
       toast.error(err?.response?.data?.message || "Invalid admin credentials");
     } finally {

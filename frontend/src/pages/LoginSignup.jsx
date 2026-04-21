@@ -35,7 +35,7 @@ export default function LoginSignup({ onAuthSuccess }) {
       await syncCartAfterLogin();
       toast.success(isLogin ? "Welcome back to KrishiSathi!" : "Account created! Welcome to the family. 🌱");
       onAuthSuccess && onAuthSuccess();
-      navigate("/");
+      window.location.href = "/";
     } catch (err) {
       const msg = err?.response?.data?.message || "Something went wrong. Please check your details.";
       setError(msg);

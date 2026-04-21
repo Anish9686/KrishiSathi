@@ -1,6 +1,6 @@
 const express = require("express");
 const Cart = require("../models/Cart");
-const auth = require("../middleware/authMiddleware");
+const { protect } = require("../middleware/authMiddleware");
 
 const router = express.Router();
 
@@ -8,7 +8,7 @@ const router = express.Router();
  * GET /api/cart
  * Get logged-in user's cart
  */
-router.get("/", auth, async (req, res) => {
+router.get("/", protect, async (req, res) => {
   const cart = await Cart.findOne({ user: req.user._id }).populate(
     "items.product"
   );
@@ -19,7 +19,7 @@ router.get("/", auth, async (req, res) => {
  * POST /api/cart/sync
  * Sync local cart → DB cart after login
  */
-router.post("/sync", auth, async (req, res) => {
+router.post("/sync", protect, async (req, res) => {
   const localItems = req.body.items || [];
 
   let cart = await Cart.findOne({ user: req.user._id });
